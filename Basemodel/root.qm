@@ -204,15 +204,19 @@
   </entities>
   <factors xmi:id="_hCU1kOP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which the product provides functions that meet stated and implied needs when the product is used under specified conditions.&quot; [1]" name="Functional Suitability">
     <annotations xmi:id="_vY5XLBpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_XlrbsKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1luP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which a system or component performs specified functions under stated conditions for a specified period of time.&quot; [1]" name="Reliability">
     <annotations xmi:id="_vY5XJBpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_c6T-EKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1oOP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The performance relative to the amount of resources used under stated conditions.&quot; [1]" name="Performance Efficiency">
     <annotations xmi:id="_vY5XFBpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_t1iwIKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1puP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use.&quot; [1]" name="Usability">
     <annotations xmi:id="_vY5XFxpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_UxcZgKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1suP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which information and data are protected so that unauthorized persons or systems cannot read or modify them and authorized persons or systems are not denied access to them.&quot; [1]" name="Security">
     <annotations xmi:id="_vY5XHhpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
@@ -220,12 +224,15 @@
   </factors>
   <factors xmi:id="_hCU1vuP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which two or more systems or components can exchange information and/or perform their required functions while sharing the same hardware or software environment.&quot; [1]" name="Compatibility">
     <annotations xmi:id="_vY5XKRpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_zBOx4KUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1xOP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree of effectiveness and efficiency with which the product can be modified.&quot; [1]" name="Maintainability">
     <annotations xmi:id="_vYvmFRpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_Z5M9gKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU10OP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which a system or component can be effectively and efficiently transferred from one hardware, software or other operational or usage environment to another.&quot; [1]" name="Portability">
     <annotations xmi:id="_vYvmERpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
+    <refines xmi:id="_vMFsUKUlEd-NpKpUUyVKCQ" parent="_Q1b28KUlEd-NpKpUUyVKCQ"/>
   </factors>
   <factors xmi:id="_hCU1keP0Ed6mXujsf-O9qQ" originatesFrom="_IcgR4KPMEd-Pv7j9Ez0GHQ" description="&quot;The degree to which the set of functions is suitable for specified tasks and user objectives.&quot; [1]" name="Functional Appropriateness">
     <annotations xmi:id="_vY5XLRpGEeCB4rqmPeAKlA" key="aggregation" value="RANKING"/>
@@ -406,6 +413,7 @@
   <factors xmi:id="_9JlVYoXWEeCT8pJoQsn4HQ" description="An annotations' definition and usage are consistent if its definition allows usage in the intended way and if it is used in the defined way. " name="Definition and Usage Consistency" characterizes="_3_rmUJsIEd-BEeIfUepsAQ">
     <influences xmi:id="_9zmiwIXWEeCT8pJoQsn4HQ" target="_hCU1yeP0Ed6mXujsf-O9qQ" justification="Modifiability is positively influenced, because if the definition and usage of annotations are consistent, then no unforeseen side-effects occur when modifying the source code."/>
     <influences xmi:id="_9zmiwYXWEeCT8pJoQsn4HQ" target="_hCU1k-P0Ed6mXujsf-O9qQ" justification="Functional correctness is positively influenced, because if the definition and usage of annotations are consistent, then the usage produces the intended result."/>
+    <influences xmi:id="_o8HlINc1EeWkEaWyFZ64hw" target="_hCU1suP0Ed6mXujsf-O9qQ"/>
     <refines xmi:id="_pTR8kIeHEeCvOcxPw9PG9g" parent="_i3PGMIeHEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9JufUYXWEeCT8pJoQsn4HQ" description="An arrays' definition and usage are consistent if its definition allows usage in the intended way and if it is used in the defined way. " name="Definition and Usage Consistency" characterizes="_9JufUIXWEeCT8pJoQsn4HQ">
@@ -501,6 +509,7 @@
     <refines xmi:id="_w0-rALHaEeCWWpLw9ua8kw" parent="_mkIGQLHaEeCWWpLw9ua8kw"/>
   </factors>
   <factors xmi:id="_9Mjw4IXWEeCT8pJoQsn4HQ" description="A method invocation's interface permission consistency is given if it fulfills the need-to-know principle." name="Interface Permission Consistency" characterizes="_9L0KAIXWEeCT8pJoQsn4HQ">
+    <influences xmi:id="_96J2soXWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced because inconsistent interface permissions can lead to scenarios where too much information is available to users."/>
     <refines xmi:id="_G-ay8YeMEeCvOcxPw9PG9g" parent="_En61oIeMEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9Mth44XWEeCT8pJoQsn4HQ" description="A string library function call is consistent to its definition if it is used in the defined way. " name="Definition and Usage Consistency" characterizes="_9Mth4oXWEeCT8pJoQsn4HQ">
@@ -529,6 +538,7 @@
     <refines xmi:id="_pULUdIeHEeCvOcxPw9PG9g" parent="_i3PGMIeHEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9N50soXWEeCT8pJoQsn4HQ" description="An library function call's definition and usage regarding scope are consistent if its definition allows usage in the intended way and if it is used in the defined way within the defined scope. " name="Definition and Usage Consistency Regarding Scope" characterizes="_0V0GMJsUEd-BEeIfUepsAQ">
+    <influences xmi:id="_90MYo4XWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced because it is ensured that scope dependent functionality is used consistently."/>
     <refines xmi:id="_kalHQoeSEeCvOcxPw9PG9g" parent="_dY07wIeSEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9OfqkIXWEeCT8pJoQsn4HQ" description="A method invocation is complex if it occurs in a chain tightly coupled with data structure." name="Detail Complexity" characterizes="_9L0KAIXWEeCT8pJoQsn4HQ">
@@ -613,6 +623,7 @@
     <influences xmi:id="_91O6cIXWEeCT8pJoQsn4HQ" target="_hCU1luP0Ed6mXujsf-O9qQ" justification="Reliability is negatively influenced because non-standard library function calls can cause program crash." effect="NEGATIVE"/>
     <influences xmi:id="_91O6cYXWEeCT8pJoQsn4HQ" target="_hCU1o-P0Ed6mXujsf-O9qQ" justification="Resource Utilization is negatively influenced because non-standard library function calls can be less efficient." effect="NEGATIVE"/>
     <influences xmi:id="_91O6coXWEeCT8pJoQsn4HQ" target="_hCU1x-P0Ed6mXujsf-O9qQ" justification="Analyzability is negatively influenced because non-standard library function calls can require more efforts for analysis." effect="NEGATIVE"/>
+    <influences xmi:id="_91O6c4XWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security can be negatively influenced because non-standard library function calls can omit security requirements." effect="NEGATIVE"/>
     <influences xmi:id="_RwWw8LLNEeCyAK5nzDCfkg" target="_hCU1oeP0Ed6mXujsf-O9qQ" justification="Time Behavior is negatively influenced because non-standard library function calls can be less efficient." effect="NEGATIVE"/>
     <refines xmi:id="_Ntgd8YeIEeCvOcxPw9PG9g" parent="_KjIzsIeIEeCvOcxPw9PG9g"/>
   </factors>
@@ -778,6 +789,7 @@
   </factors>
   <factors xmi:id="_9fes4oXWEeCT8pJoQsn4HQ" description="A database statement is independent from the runtime environment, if it does not depend on the specific setting of a runtime environment.&#xA;Note: Runtime in this context does not refer to the runtime engine like JRE but to the application context of the installation." name="Runtime Environment Independence" characterizes="_41SI8CMNEeCb0sGZOjuejQ">
     <influences xmi:id="_92bNRYXWEeCT8pJoQsn4HQ" target="_hCU10OP0Ed6mXujsf-O9qQ" justification="Portability is positively influenced because the program can be used in other application settings without the need of recompilation."/>
+    <influences xmi:id="_92bNRoXWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced because independence from a runtime environment ensures that database logins are properly stored and not hard-coded."/>
     <refines xmi:id="_yGZGEIeJEeCvOcxPw9PG9g" parent="_uxb8cIeJEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_uxb8cIeJEeCvOcxPw9PG9g" description="An entity is independent from the runtime environment, if it does not depend on the specific setting of a runtime environment.&#xD;&#xA;Note: Runtime in this context does not refer to the runtime engine like JRE but to the application context of the installation.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" name="Runtime Environment Independence" characterizes="_GJuXcJjKEd-vUPy_oGILFw">
@@ -790,6 +802,7 @@
   </factors>
   <factors xmi:id="_9fyO4IXWEeCT8pJoQsn4HQ" description="A literal is independent from the runtime environment, if it does not depend on the specific setting of a runtime environment.&#xA;Note: Runtime in this context does not refer to the runtime engine like JRE but to the application context of the installation." name="Runtime Environment Independence" characterizes="_Dr4bQbpkEd-7xo5D5btDcQ">
     <influences xmi:id="_92bNSoXWEeCT8pJoQsn4HQ" target="_hCU1zeP0Ed6mXujsf-O9qQ" justification="Testability is positively influenced, because flexible locations allow for more flexible test systems."/>
+    <influences xmi:id="_92bNS4XWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced, because binaries should be free of security relevant data. String literals as parts of binaries can usually directly accessed."/>
     <influences xmi:id="_z6EyUKfXEeCyu5RiQjY5Bw" target="_hCU10OP0Ed6mXujsf-O9qQ" justification="Portability is positively influenced because a runtime environment independent literal allows the execution of the system in another environment."/>
     <refines xmi:id="_yGZGEoeJEeCvOcxPw9PG9g" parent="_uxb8cIeJEeCvOcxPw9PG9g"/>
   </factors>
@@ -948,6 +961,7 @@
     <refines xmi:id="_IZHEwYeLEeCvOcxPw9PG9g" parent="_FltJAIeLEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9pdvUIXWEeCT8pJoQsn4HQ" description="A database statement sanitizes untrusted data, if it checks and ensures data input from outside the system beeing harmless to the system." name="Untrusted Data Sanitization" characterizes="_41SI8CMNEeCb0sGZOjuejQ">
+    <influences xmi:id="_94N9DIXWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced, because input data is checked and ensured to be harmless to the system."/>
     <refines xmi:id="_YLYDoIeLEeCvOcxPw9PG9g" parent="_VQ0XAIeLEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9pdvUoXWEeCT8pJoQsn4HQ" description="An assignment statement is useless if the assigned value is never read or the assigned value is guaranteed to be stored in the variable already.&#xA;Note: This factor regards completely unnecessary code which could be deleted without any effect, whereas the &quot;unneedly intricate&quot; factor regards code that is too complicated due to an apparent programming mistake." name="Uselessness" characterizes="_EtiN0PDQEd-dO4k3YfzrzA">
@@ -1067,6 +1081,7 @@
     <refines xmi:id="_OenDYoeLEeCvOcxPw9PG9g" parent="_LRIawIeLEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_9tCnwYXWEeCT8pJoQsn4HQ" description="A HTTP Statement sanitizes untrusted data, if it checks and ensures data input from outside the system being harmless to the system." name="Untrusted Data Sanitization" characterizes="_rtniAC7oEeCS8qaQ3va-0Q">
+    <influences xmi:id="_94N9C4XWEeCT8pJoQsn4HQ" target="_hCU1suP0Ed6mXujsf-O9qQ" justification="Security is positively influenced, because input data is checked and ensured to be harmless to the system."/>
     <refines xmi:id="_YLYDoYeLEeCvOcxPw9PG9g" parent="_VQ0XAIeLEeCvOcxPw9PG9g"/>
   </factors>
   <factors xmi:id="_VQ0XAIeLEeCvOcxPw9PG9g" description="An entity sanitizes untrusted data, if it checks and ensures data input from outside the system for being harmless to the system." name="Untrusted Data Sanitization" characterizes="_GJuXcJjKEd-vUPy_oGILFw">
@@ -1377,11 +1392,19 @@
     <rankings xmi:id="_GB3nkb9lEeCtx_uODpCzWw" rank="-1" weight="0.47" factor="_hCU1v-P0Ed6mXujsf-O9qQ"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_Q2thYK7WEeCiJeBQ2xVyZw" description="some important impacts are missing, e.g. authentication present, secure storage (hashed and salted) of passwords, signed code, message exchange over secure channels;Our evaluation criteria where rank 1 for issues that will most probably lead to significant security problems, rank 2 for issues that might lead to significant security problems, and rank 3 for problems that might lead to some security problems. Thereby, we degraded the rank for very special issues that are unlikely to occur.&#xD;&#xA;Weights of sub factors: Accountability = 0.17, Authenticity = 0.16, Confidenitality = 0.23, Integrity = 0.29, Non-Repudiation = 0.15 " name="WeightedSumFactorAggregation" evaluates="_hCU1suP0Ed6mXujsf-O9qQ" completeness="30">
-    <rankings xmi:id="_nHkSkOZyEeer8N9I0nnVOg" rank="1" weight="0.2" factor="_hCU1ueP0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_nHkSkeZyEeer8N9I0nnVOg" rank="1" weight="0.2" factor="_hCU1u-P0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_nHkSkuZyEeer8N9I0nnVOg" rank="1" weight="0.2" factor="_hCU1s-P0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_nHkSk-ZyEeer8N9I0nnVOg" rank="1" weight="0.2" factor="_hCU1teP0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_nHkSlOZyEeer8N9I0nnVOg" rank="1" weight="0.2" factor="_hCU1t-P0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_axbh4NdSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_hCU1ueP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_axbh4ddSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_hCU1u-P0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_axbh4tdSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_hCU1s-P0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_axbh49dSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_hCU1teP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_axbh5NdSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_9Mjw4IXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh5ddSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_9fes4oXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh5tdSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_9pdvUIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh59dSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_9tCnwYXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh6NdSEeW829O5dHY1Gg" rank="2" weight="0.018686868686868686" factor="_9N50soXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh6ddSEeW829O5dHY1Gg" rank="2" weight="0.018686868686868686" factor="_9fyO4IXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh6tdSEeW829O5dHY1Gg" rank="3" weight="0.006944444444444444" factor="_9S0J5IXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh69dSEeW829O5dHY1Gg" factor="_9JlVYoXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_axbh7NdSEeW829O5dHY1Gg" rank="1" weight="0.10618686868686869" factor="_hCU1t-P0Ed6mXujsf-O9qQ"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_50hQwK7YEeCiJeBQ2xVyZw" description="some factors are missing, e.g. explicit error handling that avoids immediate program termination at smaller errors, availability of resources (e.g. mobile network access), data input validation; Our evaluation criteria where rank 1 for issues that will most probably lead to significant reliability problems, rank 2 for issues that might lead to significant reliability problems, and rank 3 for problems that might lead to some reliability problems. Thereby, we degraded the rank for very special issues that are unlikely to occur.&#xD;&#xA;All factors in the base model directly influence portability and not its sub aspects (Rankings = 0). Weights of sub factors: Availability = 0.41, Fault tolerance = 0.17, Maturity = 0.20, Recoverability = 0.22 " name="WeightedSumFactorAggregation" evaluates="_hCU1luP0Ed6mXujsf-O9qQ" completeness="70">
     <rankings xmi:id="_8kUEMN9yEeCDLdD4jHX2QQ" rank="1" weight="0.04900785114268456" factor="_9NTXwIXWEeCT8pJoQsn4HQ"/>
@@ -1584,7 +1607,14 @@
     <rankings xmi:id="_O4VQWLOQEeC6O7Ub_hIWZg" rank="2" weight="0.06892164273116654" factor="_9vIScIXWEeCT8pJoQsn4HQ"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_cUCc9rOPEeC7UenYvS32Eg" description="The base model contains no factors with an impact on Compatibility (weight = 7.3% reduces completeness by 7%)&#xD;&#xA;The root model contains no factors with an impact on usability/accessibility, all accessibility factors are provided in the accessibility module. //TODO Therefore, the accessibility module have to overwrites the overall quality evaluation considering the usability/accessibility." name="WeightedSumFactorAggregation" evaluates="_Q1b28KUlEd-NpKpUUyVKCQ" maximumPoints="819" completeness="82">
-    <rankings xmi:id="_QxTbMOZyEeer8N9I0nnVOg" rank="1" weight="1.0" factor="_hCU1suP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFkLOtEeCBVt-n8fUz5A" rank="-1" weight="0.2564102564102564" factor="_hCU1kOP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFkbOtEeCBVt-n8fUz5A" rank="-1" weight="0.19536019536019536" factor="_hCU1luP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFkrOtEeCBVt-n8fUz5A" rank="-1" weight="0.16605616605616605" factor="_hCU1suP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFk7OtEeCBVt-n8fUz5A" rank="-1" weight="0.15873015873015872" factor="_hCU1oOP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFlLOtEeCBVt-n8fUz5A" rank="-1" weight="0.15384615384615385" factor="_hCU1xOP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFlbOtEeCBVt-n8fUz5A" rank="-1" weight="0.0695970695970696" factor="_hCU10OP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFlrOtEeCBVt-n8fUz5A" rank="-1" factor="_hCU1vuP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_BBQFl7OtEeCBVt-n8fUz5A" rank="-1" factor="_hCU1puP0Ed6mXujsf-O9qQ"/>
   </evaluations>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_aXivgLOZEeCBVt-n8fUz5A" description="Base model contains no factors with an impact on Co-Existence (completeness = 0)" name="QIESLEvaluation" evaluates="_hCU1v-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=&#x9;0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_fGJMoLOZEeCBVt-n8fUz5A" description="Base model contains no factors with an impact on Interoperability (completeness = 0)" name="QIESLEvaluation" evaluates="_hCU1weP0Ed6mXujsf-O9qQ" completeness="0" specification="result=&#x9;0"/>
@@ -1611,7 +1641,7 @@
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_-KB6cNq0EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1m-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="__PUHgNq0EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1l-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_AU-IANq1EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1neP0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
-  <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_BpRBcNq1EeC-NM9cH-XNrA" name="QIESLEvaluation" completeness="0" specification="result=0"/>
+  <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_BpRBcNq1EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1ueP0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_CrodYNq1EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1u-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_Dsk9ANq1EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1s-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>
   <evaluations xsi:type="qm:QIESLEvaluation" xmi:id="_FqdmANq1EeC-NM9cH-XNrA" name="QIESLEvaluation" evaluates="_hCU1t-P0Ed6mXujsf-O9qQ" completeness="0" specification="result=0"/>

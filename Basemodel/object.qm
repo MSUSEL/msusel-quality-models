@@ -220,6 +220,9 @@
     </refines>
   </factors>
   <factors xmi:id="_9NwDsIXWEeCT8pJoQsn4HQ" description="An class's definition and usage regarding scope are consistent if its definition allows usage in the intended way and if it is used in the defined way within the defined scope. " name="Definition and Usage Consistency Regarding Scope" characterizes="_Ve0-kJP7Ed-a_JX6fZrQQA">
+    <influences xmi:id="_90DOvoXWEeCT8pJoQsn4HQ" justification="Security is positively influenced because it is ensured that scope dependent functionality is used consistently.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <refines xmi:id="_kalHQIeSEeCvOcxPw9PG9g">
       <parent href="root.qm#_dY07wIeSEeCvOcxPw9PG9g"/>
     </refines>
@@ -290,6 +293,9 @@
     <influences xmi:id="_90pEkIXWEeCT8pJoQsn4HQ" justification="Modifiability is positively influenced because strong encapsulation avoids unforeseen errors and keeps the modification effort local to the intended change.">
       <target href="root.qm#_hCU1yeP0Ed6mXujsf-O9qQ"/>
     </influences>
+    <influences xmi:id="_90pEkYXWEeCT8pJoQsn4HQ" justification="Security is positively influenced, because strong encapsulation increases confidentiality of the class' data and state.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <influences xmi:id="_90pEkoXWEeCT8pJoQsn4HQ" justification="Reliability is positively influenced, because strong encapsulation ensures the encapsulated data and state remains consistent. This is a precondition for reliable systems.">
       <target href="root.qm#_hCU1luP0Ed6mXujsf-O9qQ"/>
     </influences>
@@ -298,6 +304,9 @@
     </refines>
   </factors>
   <factors xmi:id="_9nrmoIXWEeCT8pJoQsn4HQ" description="A  constructor is strong encapsulated if it is enclosed as much as possible." name="Encapsulation Strength" characterizes="_UiFsUJsIEd-BEeIfUepsAQ">
+    <influences xmi:id="_93ngE4XWEeCT8pJoQsn4HQ" justification="Security is positively influenced because strong encapsulation increases constructor's confidentiality.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <refines xmi:id="__qBVEYeHEeCvOcxPw9PG9g">
       <parent href="root.qm#_8q1AEIeHEeCvOcxPw9PG9g"/>
     </refines>
@@ -306,6 +315,9 @@
     <influences xmi:id="_90pEk4XWEeCT8pJoQsn4HQ" justification="Analyzability is positively influenced because a strong encapsulated destructor simplifies analysis.">
       <target href="root.qm#_hCU1x-P0Ed6mXujsf-O9qQ"/>
     </influences>
+    <influences xmi:id="_90pElIXWEeCT8pJoQsn4HQ" justification="Security is positively influenced because strong encapsulation increases destructor's confidentiality.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <refines xmi:id="__qLGEIeHEeCvOcxPw9PG9g">
       <parent href="root.qm#_8q1AEIeHEeCvOcxPw9PG9g"/>
     </refines>
@@ -313,6 +325,9 @@
   <factors xmi:id="_9PizcIXWEeCT8pJoQsn4HQ" description="A field is strong encapsulated if it is enclosed as much as possible." name="Encapsulation Strength" characterizes="_lz7rgLtdEd-4Dvfk12g7Xw">
     <influences xmi:id="_90y1kIXWEeCT8pJoQsn4HQ" justification="Functional correctness is positively influenced because a strong encapsulated field cannot be modified by external code and thus retains its value.">
       <target href="root.qm#_hCU1k-P0Ed6mXujsf-O9qQ"/>
+    </influences>
+    <influences xmi:id="_90y1kYXWEeCT8pJoQsn4HQ" justification="Security is positively influenced because strong encapsulation increases field's confidentiality.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
     </influences>
     <influences xmi:id="_90y1koXWEeCT8pJoQsn4HQ" justification="Reliability is positively influenced because a strong encapsulated field is protected from unpredictable values which could cause a program crash. ">
       <target href="root.qm#_hCU1luP0Ed6mXujsf-O9qQ"/>
@@ -334,6 +349,9 @@
     <influences xmi:id="_90y1lYXWEeCT8pJoQsn4HQ" justification="Analyzability is positively influenced because for a strong encapsulated method no effort is required for analyzing external access.">
       <target href="root.qm#_hCU1x-P0Ed6mXujsf-O9qQ"/>
     </influences>
+    <influences xmi:id="_90y1loXWEeCT8pJoQsn4HQ" justification="Security is positively influenced because strong encapsulation increases the confidentiality of the method's class' data and state.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <influences xmi:id="_907_gIXWEeCT8pJoQsn4HQ" justification="Modifiability is positively influenced because a strong encapsulated method allows modifications to implementation without breaking compatibility.">
       <target href="root.qm#_hCU1yeP0Ed6mXujsf-O9qQ"/>
     </influences>
@@ -347,6 +365,9 @@
   <factors xmi:id="_9RetIIXWEeCT8pJoQsn4HQ" description="A property is strong encapsulated if it is of clearly object oriented or primitive data type." name="Encapsulation Strength" characterizes="_YevPwJTAEd-40qNQIH1mBQ">
     <influences xmi:id="_907_goXWEeCT8pJoQsn4HQ" justification="Modifiability is positively influenced because modifiability of primitive and object oriented data types is clear and therefore avoids unforeseen errors and keeps the modification effort local to the intended change.">
       <target href="root.qm#_hCU1yeP0Ed6mXujsf-O9qQ"/>
+    </influences>
+    <influences xmi:id="_907_g4XWEeCT8pJoQsn4HQ" justification="Security is positively influenced, because the modifiability of primitive and object oriented data types is clear. Thus, it does not lead to unintended modifiability.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
     </influences>
     <influences xmi:id="_907_hIXWEeCT8pJoQsn4HQ" justification="Reliability is positively influenced, because modifiability of primitive and object oriented data types is clear and therefore ensures the encapsuled data and state remains consistent. This is a precondition for reliable systems.">
       <target href="root.qm#_hCU1luP0Ed6mXujsf-O9qQ"/>
@@ -459,6 +480,9 @@
     </refines>
   </factors>
   <factors xmi:id="_9TkX0oXWEeCT8pJoQsn4HQ" description="A class' interface permission consistency is given if it fulfills the need-to-know principle." name="Interface Permission Consistency" characterizes="_Ve0-kJP7Ed-a_JX6fZrQQA">
+    <influences xmi:id="_95tKxYXWEeCT8pJoQsn4HQ" justification="Security is positively influenced because inconsistent interface permissions can lead to scenarios where too much information is available to users.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <refines xmi:id="_G-ay8IeMEeCvOcxPw9PG9g">
       <parent href="root.qm#_En61oIeMEeCvOcxPw9PG9g"/>
     </refines>
@@ -893,6 +917,9 @@
     </refines>
   </factors>
   <factors xmi:id="_9Mam8IXWEeCT8pJoQsn4HQ" description="A security check method's definition and usage are consistent if its definition allows usage in the intended way and if it is used in the defined way. " name="Definition and Usage Consistency" characterizes="_9MQ18IXWEeCT8pJoQsn4HQ">
+    <influences xmi:id="_96AFv4XWEeCT8pJoQsn4HQ" justification="Security is positively influenced because consistent usage of security check methods helps to avoid security issues.">
+      <target href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    </influences>
     <refines xmi:id="_pULUcIeHEeCvOcxPw9PG9g">
       <parent href="root.qm#_i3PGMIeHEeCvOcxPw9PG9g"/>
     </refines>
@@ -2038,6 +2065,57 @@
     <rankings xmi:id="_l7CT1NdSEeW829O5dHY1Gg" factor="_9OC-oIXWEeCT8pJoQsn4HQ"/>
     <rankings xmi:id="_l7CT1ddSEeW829O5dHY1Gg" rank="1" weight="0.027411304411391148">
       <factor href="root.qm#_hCU1neP0Ed6mXujsf-O9qQ"/>
+    </rankings>
+  </evaluations>
+  <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_FF5_QKejEeCeT84Z3j_9QA" description="some important impacts are missing, e.g. authentication present, secure storage (hashed and salted) of passwords, signed code, message exchange over secure channels;Our evaluation criteria where rank 1 for issues that will most probably lead to significant security problems, rank 2 for issues that might lead to significant security problems, and rank 3 for problems that might lead to some security problems. Thereby, we degraded the rank for very special issues that are unlikely to occur. &#xD;&#xA;//TODO note in description the correct weight of each sub aspect based on survey results" name="WeightedSumFactorAggregation" completeness="30">
+    <evaluates href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
+    <rankings xmi:id="_n5e9QNdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_hCU1ueP0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9QddSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_hCU1u-P0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9QtdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_hCU1s-P0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9Q9dSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9Mam8IXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9RNdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9RddSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076" factor="_9TkX0oXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9RtdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_9Mjw4IXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9R9dSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_hCU1t-P0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9SNdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_9fes4oXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9SddSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_9pdvUIXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9StdSEeW829O5dHY1Gg" rank="1" weight="0.08173287860926076">
+      <factor href="root.qm#_9tCnwYXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9S9dSEeW829O5dHY1Gg" rank="2" weight="0.031949328825710964">
+      <factor href="root.qm#_9N50soXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9TNdSEeW829O5dHY1Gg" rank="2" weight="0.031949328825710964">
+      <factor href="root.qm#_9fyO4IXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9TddSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9NwDsIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9TtdSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9O8WgIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9T9dSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9nrmoIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9UNdSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9PZCcIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9UddSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9PizcIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9UtdSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9RCBMIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9U9dSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852" factor="_9RetIIXWEeCT8pJoQsn4HQ"/>
+    <rankings xmi:id="_n5e9VNdSEeW829O5dHY1Gg" rank="3" weight="0.013196950695107852">
+      <factor href="root.qm#_9S0J5IXWEeCT8pJoQsn4HQ"/>
+    </rankings>
+    <rankings xmi:id="_n5e9VddSEeW829O5dHY1Gg">
+      <factor href="root.qm#_9JlVYoXWEeCT8pJoQsn4HQ"/>
     </rankings>
   </evaluations>
   <measures xmi:id="_XLr4QKUuEd-NpKpUUyVKCQ" description="&quot;Checks whether a private field is unused.&quot; [1]" name="Statically unused" characterizes="_lz7rgLtdEd-4Dvfk12g7Xw" type="FINDINGS">
