@@ -33,80 +33,80 @@
     <evaluates href="root.qm#_hCU1s-P0Ed6mXujsf-O9qQ"/>
     <rankings xmi:id="_h9-iMO_sEeeeIOdohvmTXA" rank="1" weight="1.0" factor="_BM9qkO_pEeeeIOdohvmTXA"/>
   </evaluations>
-  <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_xSi4cO_sEeeeIOdohvmTXA" name="WeightedSumFactorAggregation">
+  <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_xSi4cO_sEeeeIOdohvmTXA" name="WeightedSumFactorAggregation" maximumPoints="10">
     <evaluates href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_4rs3UO_sEeeeIOdohvmTXA" rank="1" weight="0.33333333333333326" factor="_BM9qkO_pEeeeIOdohvmTXA"/>
-    <rankings xmi:id="_4rs3Ue_sEeeeIOdohvmTXA" rank="1" weight="0.33333333333333326" factor="_uRGyoO_qEeeeIOdohvmTXA"/>
-    <rankings xmi:id="_4rs3Uu_sEeeeIOdohvmTXA" rank="1" weight="0.33333333333333326">
+    <rankings xmi:id="_rB63sPGIEee2EP2QaXxWNw" rank="1" weight="0.5" factor="_BM9qkO_pEeeeIOdohvmTXA"/>
+    <rankings xmi:id="_rB7ewPGIEee2EP2QaXxWNw" rank="1" weight="0.5" factor="_uRGyoO_qEeeeIOdohvmTXA"/>
+    <rankings xmi:id="_rB7ewfGIEee2EP2QaXxWNw">
       <factor href="root.qm#_9nO6sYXWEeCT8pJoQsn4HQ"/>
     </rankings>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_T8bdkO_tEeeeIOdohvmTXA" name="WeightedSumFactorAggregation">
     <evaluates href="root.qm#_hCU1suP0Ed6mXujsf-O9qQ"/>
-    <rankings xmi:id="_WSkQsO_8EeeeIOdohvmTXA" rank="1" weight="5.0">
+    <rankings xmi:id="_4snikPGHEee2EP2QaXxWNw" rank="1" weight="0.5">
       <factor href="root.qm#_hCU1s-P0Ed6mXujsf-O9qQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQse_8EeeeIOdohvmTXA" rank="1" weight="5.0">
-      <factor href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
-    </rankings>
-    <rankings xmi:id="_WSkQsu_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snikfGHEee2EP2QaXxWNw">
       <factor href="root.qm#_hCU1ueP0Ed6mXujsf-O9qQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQs-_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snikvGHEee2EP2QaXxWNw">
       <factor href="root.qm#_hCU1u-P0Ed6mXujsf-O9qQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQtO_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snik_GHEee2EP2QaXxWNw">
       <factor href="root.qm#_9JlVYoXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQte_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snilPGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9Mam8IXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQtu_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snilfGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9NwDsIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQt-_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snilvGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9N50soXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQuO_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snil_GHEee2EP2QaXxWNw">
       <factor href="object.qm#_9O8WgIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQue_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snimPGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9nrmoIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQuu_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snimfGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9PZCcIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQu-_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snimvGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9PizcIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQvO_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snim_GHEee2EP2QaXxWNw">
       <factor href="object.qm#_9RCBMIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQve_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4sninPGHEee2EP2QaXxWNw">
       <factor href="object.qm#_9RetIIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQvu_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4sninfGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9S0J5IXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQv-_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4sninvGHEee2EP2QaXxWNw" rank="1" weight="0.5">
+      <factor href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
+    </rankings>
+    <rankings xmi:id="_4snin_GHEee2EP2QaXxWNw">
       <factor href="object.qm#_9TkX0oXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQwO_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snioPGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9Mjw4IXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQwe_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4sniofGHEee2EP2QaXxWNw">
       <factor href="root.qm#_hCU1t-P0Ed6mXujsf-O9qQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQwu_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4sniovGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9fes4oXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQw-_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snio_GHEee2EP2QaXxWNw">
       <factor href="root.qm#_9fyO4IXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQxO_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snipPGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9pdvUIXWEeCT8pJoQsn4HQ"/>
     </rankings>
-    <rankings xmi:id="_WSkQxe_8EeeeIOdohvmTXA">
+    <rankings xmi:id="_4snipfGHEee2EP2QaXxWNw">
       <factor href="root.qm#_9tCnwYXWEeCT8pJoQsn4HQ"/>
     </rankings>
   </evaluations>
@@ -144,9 +144,9 @@
     <rankings xmi:id="_yRfEkO_6EeeeIOdohvmTXA" rank="1" weight="1.0" factor="_iU5fUO_qEeeeIOdohvmTXA"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_bwuRkO_zEeeeIOdohvmTXA" name="WeightedSumMultiMeasureEvaluation" evaluates="_iU5fUO_qEeeeIOdohvmTXA">
-    <rankings xmi:id="_XkNYYO_0EeeeIOdohvmTXA" measure="_iyKUAO_zEeeeIOdohvmTXA" range="METHOD" rank="1" weight="1.0">
+    <rankings xmi:id="_eYAJ0PGIEee2EP2QaXxWNw" measure="_iyKUAO_zEeeeIOdohvmTXA" range="METHOD" rank="1" weight="1.0">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_XkNYYe_0EeeeIOdohvmTXA" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_eYAJ0fGIEee2EP2QaXxWNw" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_d5oCUO_0EeeeIOdohvmTXA" name="WeightedSumFactorAggregation" evaluates="_uRGyoO_qEeeeIOdohvmTXA">
@@ -156,13 +156,13 @@
     <rankings xmi:id="_lJHu4O_0EeeeIOdohvmTXA" rank="1" weight="1.0" factor="_c6LGkO_rEeeeIOdohvmTXA"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_o39YIO_0EeeeIOdohvmTXA" name="WeightedSumMultiMeasureEvaluation" evaluates="_c6LGkO_rEeeeIOdohvmTXA">
-    <rankings xmi:id="_reQvMO_4EeeeIOdohvmTXA" measure="_xcflAO_0EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
+    <rankings xmi:id="_nt6wUPGIEee2EP2QaXxWNw" measure="_xcflAO_0EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_reRWQO_4EeeeIOdohvmTXA" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_nt6wUfGIEee2EP2QaXxWNw" upperBound="1.0"/>
     </rankings>
-    <rankings xmi:id="_reRWQe_4EeeeIOdohvmTXA" measure="_hRqYUO_4EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
+    <rankings xmi:id="_nt6wUvGIEee2EP2QaXxWNw" measure="_hRqYUO_4EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_reRWQu_4EeeeIOdohvmTXA" upperBound="1.0"/>
+      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_nt6wU_GIEee2EP2QaXxWNw" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <measures xmi:id="_iyKUAO_zEeeeIOdohvmTXA" description="Description for APTCA measure" name="APTCA Methods not Calling APTCA Methods" type="FINDINGS">
