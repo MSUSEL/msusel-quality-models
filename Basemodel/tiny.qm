@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <qm:QualityModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qm="http://www.quamoco.de/qm/v17" xmi:id="_IJIcwOZ4EeeDNfpREM2xAg" description="A sample very small modeling to show concepts of calculating TD, CWSS, and CWRAF scoring using a Quamoco model with CWE factors" name="tiny_model" title="tiny_model">
   <factors xmi:id="_BM9qkO_pEeeeIOdohvmTXA" description="Description for CWE-1011" name="CWE-1011: Authorize Actors">
-    <influences xmi:id="_b7r6gO_qEeeeIOdohvmTXA">
+    <influences xmi:id="_b7r6gO_qEeeeIOdohvmTXA" effect="NEGATIVE">
       <target href="root.qm#_hCU1s-P0Ed6mXujsf-O9qQ"/>
     </influences>
-    <influences xmi:id="_dCApYO_qEeeeIOdohvmTXA">
+    <influences xmi:id="_dCApYO_qEeeeIOdohvmTXA" effect="NEGATIVE">
       <target href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
     </influences>
   </factors>
@@ -16,8 +16,8 @@
     <characterizes href="object.qm#_zDY80LpUEd-vsOyJ3PcLww"/>
     <refines xmi:id="_pNxboO_qEeeeIOdohvmTXA" parent="_U3WxkO_pEeeeIOdohvmTXA"/>
   </factors>
-  <factors xmi:id="_uRGyoO_qEeeeIOdohvmTXA" description="Description for CWE-1020&#x9;" name="CWE-1020: Verity Message Integrity">
-    <influences xmi:id="_1h3DcO_qEeeeIOdohvmTXA">
+  <factors xmi:id="_uRGyoO_qEeeeIOdohvmTXA" description="Description for CWE-1020&#x9;" name="CWE-1020: Verify Message Integrity">
+    <influences xmi:id="_1h3DcO_qEeeeIOdohvmTXA" effect="NEGATIVE">
       <target href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
     </influences>
   </factors>
@@ -144,9 +144,9 @@
     <rankings xmi:id="_yRfEkO_6EeeeIOdohvmTXA" rank="1" weight="1.0" factor="_iU5fUO_qEeeeIOdohvmTXA"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_bwuRkO_zEeeeIOdohvmTXA" name="WeightedSumMultiMeasureEvaluation" evaluates="_iU5fUO_qEeeeIOdohvmTXA">
-    <rankings xmi:id="_eYAJ0PGIEee2EP2QaXxWNw" measure="_iyKUAO_zEeeeIOdohvmTXA" range="METHOD" rank="1" weight="1.0">
+    <rankings xmi:id="_WLrx8PIzEeeEz_ZYwymmuw" measure="_iyKUAO_zEeeeIOdohvmTXA" range="FILE" rank="1" weight="1.0">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_eYAJ0fGIEee2EP2QaXxWNw" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_WLrx8fIzEeeEz_ZYwymmuw" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_d5oCUO_0EeeeIOdohvmTXA" name="WeightedSumFactorAggregation" evaluates="_uRGyoO_qEeeeIOdohvmTXA">
@@ -156,13 +156,13 @@
     <rankings xmi:id="_lJHu4O_0EeeeIOdohvmTXA" rank="1" weight="1.0" factor="_c6LGkO_rEeeeIOdohvmTXA"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_o39YIO_0EeeeIOdohvmTXA" name="WeightedSumMultiMeasureEvaluation" evaluates="_c6LGkO_rEeeeIOdohvmTXA">
-    <rankings xmi:id="_nt6wUPGIEee2EP2QaXxWNw" measure="_xcflAO_0EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
+    <rankings xmi:id="_aXzNEPIzEeeEz_ZYwymmuw" measure="_xcflAO_0EeeeIOdohvmTXA" range="CLASS" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_nt6wUfGIEee2EP2QaXxWNw" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_aXzNEfIzEeeEz_ZYwymmuw" upperBound="1.0"/>
     </rankings>
-    <rankings xmi:id="_nt6wUvGIEee2EP2QaXxWNw" measure="_hRqYUO_4EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
+    <rankings xmi:id="_aXzNEvIzEeeEz_ZYwymmuw" measure="_hRqYUO_4EeeeIOdohvmTXA" range="METHOD" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_nt6wU_GIEee2EP2QaXxWNw" upperBound="1.0"/>
+      <function xsi:type="qm:LinearDecreasingFunction" xmi:id="_aXzNE_IzEeeEz_ZYwymmuw" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <measures xmi:id="_iyKUAO_zEeeeIOdohvmTXA" description="Description for APTCA measure" name="APTCA Methods not Calling APTCA Methods" type="FINDINGS">
