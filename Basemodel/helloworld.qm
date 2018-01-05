@@ -14,7 +14,8 @@
       <target href="root.qm#_hCU1teP0Ed6mXujsf-O9qQ"/>
     </influences>
   </factors>
-  <factors xmi:id="_ikwjQPI6EeeEz_ZYwymmuw" name="CWE-391 Unchecked Error Condition">
+  <factors xmi:id="_ikwjQPI6EeeEz_ZYwymmuw" description="Description for CWE-391 factor" name="CWE-391 Unchecked Error Condition">
+    <characterizes href="object.qm#_zDY80LpUEd-vsOyJ3PcLww"/>
     <refines xmi:id="_ikxKUPI6EeeEz_ZYwymmuw" parent="_WSI7EPI6EeeEz_ZYwymmuw"/>
   </factors>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_HCRUEPI5EeeEz_ZYwymmuw" name="WeightedSumFactorAggregation">
@@ -128,9 +129,13 @@
     <rankings xmi:id="_N-1LoPI7EeeEz_ZYwymmuw" rank="1" weight="1.0" factor="_ikwjQPI6EeeEz_ZYwymmuw"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_l6qvIPI6EeeEz_ZYwymmuw" name="WeightedSumMultiMeasureEvaluation" evaluates="_ikwjQPI6EeeEz_ZYwymmuw">
-    <rankings xmi:id="_DqRLkPI7EeeEz_ZYwymmuw" measure="_nyiPsPI6EeeEz_ZYwymmuw" range="NA" rank="1" weight="1.0">
+    <rankings xmi:id="_4dL5MPJoEee_vNpVqjnzhQ" measure="_nyiPsPI6EeeEz_ZYwymmuw" range="NA" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_DqRLkfI7EeeEz_ZYwymmuw" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_4dL5MfJoEee_vNpVqjnzhQ" upperBound="1.0"/>
+    </rankings>
+    <rankings xmi:id="_4dL5MvJoEee_vNpVqjnzhQ" measure="_k9e_QPJoEee_vNpVqjnzhQ" range="NA" rank="1" weight="0.5">
+      <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_4dL5M_JoEee_vNpVqjnzhQ" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_qnEXYPI7EeeEz_ZYwymmuw" name="WeightedSumFactorAggregation" evaluates="_m30qAPIxEeeEz_ZYwymmuw">
@@ -145,13 +150,15 @@
   <measures xmi:id="_6f_p0PI5EeeEz_ZYwymmuw" description="Description for APTCA measure." name="APTCA Methods not Calling APTCA Methods" type="FINDINGS">
     <measures xmi:id="_6gCtIPI5EeeEz_ZYwymmuw" parent="_0W4WgPI5EeeEz_ZYwymmuw"/>
   </measures>
-  <measures xmi:id="_nyiPsPI6EeeEz_ZYwymmuw" name="measure 002" type="FINDINGS">
+  <measures xmi:id="_nyiPsPI6EeeEz_ZYwymmuw" description="Description for method override measure" name="Method Override Without Consistent Transparency" type="FINDINGS">
     <measures xmi:id="_nykr8PI6EeeEz_ZYwymmuw" parent="_ikwjQPI6EeeEz_ZYwymmuw"/>
   </measures>
+  <measures xmi:id="_k9e_QPJoEee_vNpVqjnzhQ" description="Description for suppress unmanaged code measure." name="Suppress Unmanaged Code Security" type="FINDINGS">
+    <measures xmi:id="_k9lF4PJoEee_vNpVqjnzhQ" parent="_ikwjQPI6EeeEz_ZYwymmuw"/>
+  </measures>
   <measurementMethods xsi:type="qm:ToolBasedInstrument" xmi:id="_90uxAPI5EeeEz_ZYwymmuw" determines="_6f_p0PI5EeeEz_ZYwymmuw" tool="_i3kGgPJmEee_vNpVqjnzhQ" metric="fxcop:AptcaMethodsShouldOnlyCallAptcaMethods"/>
-  <measurementMethods xsi:type="qm:ToolBasedInstrument" xmi:id="_1pVncPI6EeeEz_ZYwymmuw" determines="_nyiPsPI6EeeEz_ZYwymmuw" metric="metric002">
-    <tool href="root.qm#_aB5OEB5IEeCp6rP-KrdnJA"/>
-  </measurementMethods>
+  <measurementMethods xsi:type="qm:ToolBasedInstrument" xmi:id="_1pVncPI6EeeEz_ZYwymmuw" determines="_nyiPsPI6EeeEz_ZYwymmuw" tool="_i3kGgPJmEee_vNpVqjnzhQ" metric="fxcop:MethodsMustOverrideWithConsistentTransparency"/>
+  <measurementMethods xsi:type="qm:ToolBasedInstrument" xmi:id="_veanYPJoEee_vNpVqjnzhQ" determines="_k9e_QPJoEee_vNpVqjnzhQ" tool="_i3kGgPJmEee_vNpVqjnzhQ" metric="fxcop:ReviewSuppressUnmanagedCodeSecurityUsage"/>
   <tools xmi:id="_i3kGgPJmEee_vNpVqjnzhQ" description="Description for fxcop&#x9;" name="fxcop"/>
   <requires href="object.qm#_vVIPYKUsEd-NpKpUUyVKCQ"/>
   <requires href="root.qm#_JarMoOHNEd-I9oS2OyT8ug"/>
