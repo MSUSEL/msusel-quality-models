@@ -129,22 +129,22 @@
     <rankings xmi:id="_N-1LoPI7EeeEz_ZYwymmuw" rank="1" weight="1.0" factor="_ikwjQPI6EeeEz_ZYwymmuw"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_l6qvIPI6EeeEz_ZYwymmuw" name="WeightedSumMultiMeasureEvaluation" evaluates="_ikwjQPI6EeeEz_ZYwymmuw">
-    <rankings xmi:id="_4dL5MPJoEee_vNpVqjnzhQ" measure="_nyiPsPI6EeeEz_ZYwymmuw" range="NA" rank="1" weight="0.5">
+    <rankings xmi:id="_NzxaYP0sEeeZ87jqkQKeNQ" measure="_nyiPsPI6EeeEz_ZYwymmuw" range="FILE" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_4dL5MfJoEee_vNpVqjnzhQ" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_NzxaYf0sEeeZ87jqkQKeNQ" upperBound="1.0"/>
     </rankings>
-    <rankings xmi:id="_4dL5MvJoEee_vNpVqjnzhQ" measure="_k9e_QPJoEee_vNpVqjnzhQ" range="NA" rank="1" weight="0.5">
+    <rankings xmi:id="_NzxaYv0sEeeZ87jqkQKeNQ" measure="_k9e_QPJoEee_vNpVqjnzhQ" range="NA" rank="1" weight="0.5">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_4dL5M_JoEee_vNpVqjnzhQ" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_NzxaY_0sEeeZ87jqkQKeNQ" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumFactorAggregation" xmi:id="_qnEXYPI7EeeEz_ZYwymmuw" name="WeightedSumFactorAggregation" evaluates="_m30qAPIxEeeEz_ZYwymmuw">
     <rankings xmi:id="_rPKSIPI7EeeEz_ZYwymmuw" rank="1" weight="1.0" factor="_0W4WgPI5EeeEz_ZYwymmuw"/>
   </evaluations>
   <evaluations xsi:type="qm:WeightedSumMultiMeasureEvaluation" xmi:id="_VpiGUPJjEee_vNpVqjnzhQ" name="WeightedSumMultiMeasureEvaluation" evaluates="_0W4WgPI5EeeEz_ZYwymmuw">
-    <rankings xmi:id="_YIZ8gPJjEee_vNpVqjnzhQ" measure="_6f_p0PI5EeeEz_ZYwymmuw" range="NA" rank="1" weight="1.0">
+    <rankings xmi:id="_P30VwP0sEeeZ87jqkQKeNQ" measure="_6f_p0PI5EeeEz_ZYwymmuw" range="FILE" rank="1" weight="1.0">
       <normlizationMeasure href="root.qm#_6wmhsOHIEd-_QLJMFBuPpg"/>
-      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_YIZ8gfJjEee_vNpVqjnzhQ" upperBound="1.0"/>
+      <function xsi:type="qm:LinearIncreasingFunction" xmi:id="_P30Vwf0sEeeZ87jqkQKeNQ" upperBound="1.0"/>
     </rankings>
   </evaluations>
   <measures xmi:id="_6f_p0PI5EeeEz_ZYwymmuw" description="Description for APTCA measure." name="APTCA Methods not Calling APTCA Methods" type="FINDINGS">
